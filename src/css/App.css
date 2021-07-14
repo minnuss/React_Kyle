@@ -1,0 +1,41 @@
+/* this command standardize all the browser defaults, so its easier to work with css */
+@import-normalize;
+
+/* LEFT PART OF APP */
+@import 'font.css';
+@import 'recipe-list.css';
+@import 'buttons.css';
+@import 'ingredient-list.css';
+@import 'recipe.css';
+
+/* RIGHT PART OF APP */
+@import '../css/recipe-edit.css';
+
+/* GOOGLE FONTS */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+*,
+*::before,
+*:after {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0%;
+  margin: 0;
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+  .mr-1 {
+    margin-right: 0px;
+  }
+}

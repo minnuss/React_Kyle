@@ -1,0 +1,13 @@
+.ingredient-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 5px;
+  column-gap: 40px;
+  justify-content: flex-start;
+}
+
+.ingredientArray {
+  white-space: pre-wrap;
+  /* display: flex;
+  max-width: 200px; */
+}

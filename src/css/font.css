@@ -1,0 +1,28 @@
+/* When fonts is downloaded by google fonts, it needs to be converted to woff and woff2 format, from website 
+https://www.fontsquirrel.com/tools/webfont-generator
+And then imported like below.
+*/
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/roboto-black-webfont.woff2) format('woff2'),
+    url(../fonts/roboto-black-webfont.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/roboto-regular-webfont.woff2) format('woff2'),
+    url(../fonts/roboto-regular-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/roboto-light-webfont.woff2) format('woff2'),
+    url(../fonts/roboto-light-webfont.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
